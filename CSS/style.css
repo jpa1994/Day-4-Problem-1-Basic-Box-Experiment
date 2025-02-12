@@ -1,0 +1,27 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.box1 {
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #333;
+    background-color: #fafafa;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.box2 {
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+    border: 5px solid #333;
+    background-color: #fafafa;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.box2 h2 {
+    margin-top: 0px;
+}
